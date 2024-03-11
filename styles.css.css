@@ -1,0 +1,131 @@
+body{
+    background:rgb(2,0,36);
+    background: linear-gradient(90deg,
+    rgba(2,0,36,1)0%,
+    rgba(60,60,93,1)35%,
+    rgba(0,212,255,1)100%);
+    color: white;
+    
+}
+
+.logo{
+    background-color: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    position: sticky;
+    margin-left: 35%;
+    width: 200px;
+}
+#nav-bar{
+    position: fixed;
+    top: 0px;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    background-size: cover;
+    color: white;
+    padding: 10px 20px;
+}
+
+ .nav-list {
+            display: flex;
+            list-style: none;
+        }
+ 
+        .nav-list li {
+            margin-right: 20px;
+        }
+ 
+.nav-list li:last-child {
+     margin-right: 0;
+        }
+ 
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+        }
+ 
+.nav-list li a:hover {
+    color: #90ADC5;
+
+        }
+.photo {
+  float: left;
+  margin-right: 20px;
+}
+
+.text-container {
+  margin-left: 20px;
+}
+
+.content1{
+    border: 3px solid;
+    border-color: TEAL;
+}
+
+.content2{
+    border: 3px solid;
+    border-color: #C4DFE6;
+}
+
+.about-us{
+    margin-top: 20px;
+}
+
+@media screen and (width=600px){
+    body{color: white;
+    background: black;
+    }
+    img{
+    display: block;
+    }
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  min-width: 300px;
+  margin: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+
+}
